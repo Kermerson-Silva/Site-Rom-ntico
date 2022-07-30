@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Yeseva+One&display=swap');
+
+body{
+  background-image: url(./images/backgroud.jpeg);
+}
+
+.header {
+  margin: auto;
+  width: 25rem;
+  height: 20rem;
+  background-image: url(./images/header.jpeg);
+  background-size: cover;
+}
+
+
+.main{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  border: solid 1px #000;
+  padding: 10px;
+}
+
+h1, h2, h3{
+  font-family: 'Yeseva One', serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+p{
+  font-family: 'Arapey', cursive;
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+div{
+  text-align: center;
+}
+.foto-final {
+  width: 8rem;
+  height: 50%;
+  float: left ;
+  margin-right: 8px;
+}
+
+.final{
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .foto-final {
+    width: 8.832rem;
+    float: left;
+    margin-right: 8px;
+  } 
+}
